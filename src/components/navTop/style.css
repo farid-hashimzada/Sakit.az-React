@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0 5px 0;
+    background: #E2E9EC;
+    align-items: center;
+}
+
+.navbar .nav-left img {
+    cursor: pointer;
+}
+
+.navbar .nav-middle {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.navbar .nav-middle-right  {
+    cursor: pointer;
+}
+
+.navbar .nav-middle-right {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .rigth-logo img {
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient(270deg, #003DA6 0%, #00A7E1 128.16%);;
+}
+
+.header .container ul {
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    align-items: center;
+    list-style: none;
+}
+
+.header .container ul li {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #FFFFFF;
+    cursor: pointer;
+}
