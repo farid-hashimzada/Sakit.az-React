@@ -25,4 +25,83 @@
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.bam-box {
+    display: flex;
+    position: relative;
+}
+
+#test {
+    background: linear-gradient(180deg, #02BEFF 0%, #00A7E1 100%);
+    box-shadow: 0px 5px 15px rgba(5, 40, 100, 0.2);
+    border-radius: 50px;
+}
+
+.bamimg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.bam-left h1 {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 57px;
+    color: #393B3D;
+    max-width: 462px;
+    width: 100%;
+    padding: 50px 0 20px 0;
+}
+
+.bam-left p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #393B3D;
+    max-width: 285px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.bam-voice-problem {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(60, 103, 121, 0.2);
+    margin-top: 50px !important;
+    max-width: 355px;
+    width: 100%;
+    border-radius: 8px;
+    align-items: center;
+    padding: 20px;
+}
+
+.bam-voice-problem span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #393B3D;
+}
+
+.bam-voice-problem div:first-child {
+    width: 70%;
+}
+
+.bam-voice-problem div:last-child {
+    text-align: right;
+    width: 30%;
+}
+
+.bam-right {
+    position: relative;
+}
+
+
+.bam-right .bamm-svg {
+    position: absolute;
+    right: 400px !important;
+    top: 40px;
 }

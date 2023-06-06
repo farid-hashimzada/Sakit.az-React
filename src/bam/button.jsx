@@ -1,12 +1,4 @@
-import "./bam.css"
-export const Button = ({
-    text
-}) => {
-    return(
-        <>
-        <button className="btn">
-            {text}
-        </button>
-        </>
-    )
+import "./bam.css";
+export const Button = ({ text,id }) => {
+  return <button className={'btn'} id={id}>{text}</button>;
 };
