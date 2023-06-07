@@ -1,7 +1,7 @@
-import "../bam/bam.css";
-import Bampng from "../img/bamImg.png";
-import youtube from "../img/youtube.svg";
-import Bamm from "../img/Bamm.svg";
+import "../../components/bam/bam.css";
+import Bampng from "../../img/bamImg.png";
+import youtube from "../../img/youtube.svg";
+import Bamm from "../../img/Bamm.svg";
 import { Button } from "./button";
 export const Bam = () => {
   return (
