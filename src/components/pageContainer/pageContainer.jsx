@@ -4,6 +4,8 @@ import { Header } from "../header/header";
 import { NavTop } from "../navTop/navTop";
 import { Bam } from "../bam/bam";
 import Solve from "../solve-problem/solve";
+import WorkMap from "../workMap/workMap";
+
 
 const   PageContainer = () => {
   return (
@@ -13,6 +15,7 @@ const   PageContainer = () => {
       <Bam />
       <Work />
       <Solve />
+      <WorkMap/>
     </>
   );
 };

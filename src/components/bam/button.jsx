@@ -1,4 +1,4 @@
 import "./bam.css";
-export const Button = ({ text,id }) => {
-  return <button className={'btn'} id={id}>{text}</button>;
+export const Button = ({ text,id, workText }) => {
+  return <button className={'btn'} id={id}>{text}{workText}</button>;
 };
