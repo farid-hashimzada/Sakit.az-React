@@ -5,9 +5,10 @@ import { NavTop } from "../navTop/navTop";
 import { Bam } from "../bam/bam";
 import Solve from "../solve-problem/solve";
 import WorkMap from "../workMap/workMap";
+import InstagramFeed from "../instagramFeed/instagramFeed";
+import ReactMultiCaorusel from "../ReactMultiCarousel/ReactMultiCarousel";
 
-
-const   PageContainer = () => {
+const PageContainer = () => {
   return (
     <>
       <NavTop />
@@ -15,7 +16,9 @@ const   PageContainer = () => {
       <Bam />
       <Work />
       <Solve />
-      <WorkMap/>
+      <WorkMap />
+      <ReactMultiCaorusel/>
+      <InstagramFeed />
     </>
   );
 };
