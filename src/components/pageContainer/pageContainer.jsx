@@ -7,6 +7,7 @@ import Solve from "../solve-problem/solve";
 import WorkMap from "../workMap/workMap";
 import InstagramFeed from "../instagramFeed/instagramFeed";
 import ReactMultiCaorusel from "../ReactMultiCarousel/ReactMultiCarousel";
+import Calculator from "../calculator/Calculator"
 
 const PageContainer = () => {
   return (
@@ -19,6 +20,7 @@ const PageContainer = () => {
       <WorkMap />
       <ReactMultiCaorusel/>
       <InstagramFeed />
+      <Calculator/>
     </>
   );
 };

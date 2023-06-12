@@ -37,6 +37,23 @@ const InstagramFeed = () => {
           </div>
         </div>
       </div>
+
+      <div className="price-box">
+        <div className="container">
+          <div className="price-one">
+            <p>Hazır Layihə</p>
+            <h3>50+</h3>
+          </div>
+          <div className="price-two">
+            <p>Məmnun müştəri</p>
+            <h3>100%</h3>
+          </div>
+          <div className="price-two">
+            <p>Məmnun müştəri</p>
+            <h3>250 m</h3>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

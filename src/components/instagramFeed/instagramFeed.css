@@ -87,8 +87,66 @@
     height: 70px;
 }
 
-.instagramFeedBox {
-    /* padding-top: 50px; */
+.instagramFeedBox .socialImg:hover {
+    background: orange;
+    color: #FFFFFF;
+    transition: ease-in-out 2s;
+    border-radius: 50%;
 }
 
-.instagramFeedBox .insta-social img:hover {}
+
+/*price-box start*/
+.price-box .container {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.price-box .price-one {
+    background: rgb(102, 191, 239);
+    padding: 10px 35px;
+    border-radius: 10px;
+}
+
+.price-box .price-one p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.price-box .price-one h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.price-box .price-two {
+    background: #393B3D;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.price-box .price-two p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.price-box .price-two h3 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 53px;
+    text-align: center;
+    color: #00A7E1
+}
+
+/*price-box end*/

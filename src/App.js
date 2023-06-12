@@ -5,6 +5,7 @@ import './components/about-work/work.css';
 import './components/solve-problem/solve.css';
 import './components/instagramFeed/instagramFeed.css';
 import './components/ReactMultiCarousel/reactMultiCarousel.css';
+import './components/calculator/Calculator.css'
 // import { NavTop } from './components/navTop/navTop.jsx';
 // import { Header } from './components/header/header.jsx';
 // import { Bam } from './components/bam/bam';
