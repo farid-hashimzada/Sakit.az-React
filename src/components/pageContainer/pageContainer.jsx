@@ -8,6 +8,7 @@ import WorkMap from "../workMap/workMap";
 import InstagramFeed from "../instagramFeed/instagramFeed";
 import ReactMultiCaorusel from "../ReactMultiCarousel/ReactMultiCarousel";
 import Calculator from "../calculator/Calculator"
+import SpecialOffer  from '../SpecialOffer/SpecialOffer'
 
 const PageContainer = () => {
   return (
@@ -21,6 +22,7 @@ const PageContainer = () => {
       <ReactMultiCaorusel/>
       <InstagramFeed />
       <Calculator/>
+      <SpecialOffer/>
     </>
   );
 };

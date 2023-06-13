@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.special-offer-box {
+    background: #E5E5E5;
+}
+
+.special-offer-box .container {
+    padding-bottom: 50px;
+}
+
+.special-offer-box .container h2 {
+    position: relative;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: center !important;
+    color: #393B3D;
+    padding: 50px 0;
+}
+
+.special-offer-box .container h2::before {
+    content: "";
+    position: absolute;
+    max-width: 530px;
+    width: 100%;
+    border: 2px solid #00A7E1;
+    border-radius: 8px;
+    bottom: 45px;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.offer-img {
+    position: relative;
+
+}
+
+.offer img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+    height: 450px !important;
+    object-fit: cover;
+}
+
+.offer-content {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.offer-content h3 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #FFFFFF;
+    max-width: 262px;
+    width: 100%;
+}
+
+.offer-content p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    max-width: 300px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.offer-img-two {
+    position: relative;
+}
+
+.offer-content-two {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.offer-content-two h3 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #FFFFFF;
+    max-width: 262px;
+    width: 100%;
+}
+
+.offer-content-two p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    max-width: 300px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.offer-img-three {
+    position: relative;
+}
+
+.offer-content-three {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.offer-content-three h3 {
+     font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #FFFFFF;
+    max-width: 262px;
+    width: 100%;
+}
+
+.offer-content-three p {
+     font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    max-width: 300px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.img-blurAreaTwo {
+    display: flex;
+    position: absolute;
+    height: 99%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #055ac3;
+    opacity: 0;
+    z-index: 10;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+    border-radius: 20px;
+}
+
+.offer-img:hover .img-blurAreaTwo {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.offer-img-two:hover .img-blurAreaTwo {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.offer-img-three:hover .img-blurAreaTwo {
+    opacity: 0.5;
+    cursor: pointer;
+}
