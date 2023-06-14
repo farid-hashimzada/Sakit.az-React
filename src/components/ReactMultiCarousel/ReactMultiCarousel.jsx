@@ -68,7 +68,7 @@ const ReactMultiCaorusel = ({ children }) => {
           <h2>Instagram feed</h2>
         </div>
         <Carousel responsive={responsive}>
-          {instagramFeedImg.map(({ img }) => {
+          {instagramFeedImg.map(({img}) => {
             return (
               <div className="insta-img">
                 <div className="img-blurArea"></div>

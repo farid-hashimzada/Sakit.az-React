@@ -9,6 +9,7 @@ import InstagramFeed from "../instagramFeed/instagramFeed";
 import ReactMultiCaorusel from "../ReactMultiCarousel/ReactMultiCarousel";
 import Calculator from "../calculator/Calculator"
 import SpecialOffer  from '../SpecialOffer/SpecialOffer'
+import ProyektExample from "../ProyektExample/ProyektExample";
 
 const PageContainer = () => {
   return (
@@ -23,6 +24,7 @@ const PageContainer = () => {
       <InstagramFeed />
       <Calculator/>
       <SpecialOffer/>
+      <ProyektExample/>
     </>
   );
 };
