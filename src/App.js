@@ -8,19 +8,18 @@ import './components/ReactMultiCarousel/reactMultiCarousel.css';
 import './components/calculator/Calculator.css'
 import './components/SpecialOffer/SpecialOffer.css'
 import './components/ProyektExample/ProyektExample.css'
-// import { NavTop } from './components/navTop/navTop.jsx';
-// import { Header } from './components/header/header.jsx';
-// import { Bam } from './components/bam/bam';
-// import { Work } from './components/about-work/work';
-// import Solve from './components/solve-problem/solve';
 import PageContainer from './components/pageContainer/pageContainer';
+import { BrowserRouter, Routes } from 'react-router-dom';
+import { Routing } from './Routing/Routing';
+
+
 
 
 
 function App() {
   return (
     <>
-      <PageContainer />
+      <Routing />
     </>
   );
 }

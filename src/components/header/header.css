@@ -23,3 +23,13 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+.header .container ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header .container ul li a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+    transition: ease-in-out 1s;
+}
