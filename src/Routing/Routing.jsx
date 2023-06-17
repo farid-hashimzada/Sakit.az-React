@@ -9,7 +9,6 @@ import Price from "../Pages/Price";
 import Home from "../Pages/Home";
 import { Route, Routes } from "react-router-dom";
 
-
 export const Routing = () => {
   return (
     <>
@@ -26,4 +25,3 @@ export const Routing = () => {
     </>
   );
 };
-
