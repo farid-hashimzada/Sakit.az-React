@@ -10,6 +10,7 @@ import ReactMultiCaorusel from "../ReactMultiCarousel/ReactMultiCarousel";
 import Calculator from "../calculator/Calculator"
 import SpecialOffer  from '../SpecialOffer/SpecialOffer'
 import ProyektExample from "../ProyektExample/ProyektExample";
+import Partnyorlar from "../partnyorlar/partnyorlar";
 
 const PageContainer = () => {
   return (
@@ -25,6 +26,7 @@ const PageContainer = () => {
       <Calculator/>
       <SpecialOffer/>
       <ProyektExample/>
+      <Partnyorlar/>
     </>
   );
 };

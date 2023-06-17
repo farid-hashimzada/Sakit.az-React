@@ -8,8 +8,7 @@ import './components/ReactMultiCarousel/reactMultiCarousel.css';
 import './components/calculator/Calculator.css'
 import './components/SpecialOffer/SpecialOffer.css'
 import './components/ProyektExample/ProyektExample.css'
-import PageContainer from './components/pageContainer/pageContainer';
-import { BrowserRouter, Routes } from 'react-router-dom';
+import './components/partnyorlar/partnyorlar.css';
 import { Routing } from './Routing/Routing';
 
 
