@@ -9,6 +9,9 @@ import './components/calculator/Calculator.css'
 import './components/SpecialOffer/SpecialOffer.css'
 import './components/ProyektExample/ProyektExample.css'
 import './components/partnyorlar/partnyorlar.css';
+import './components/videoAll/video.css';
+import './components/NoisePrice/NoisePrice.css';
+import './components/NoisePrice/NoiseCartComponent/NoiseCart.css';
 import { Routing } from './Routing/Routing';
 
 

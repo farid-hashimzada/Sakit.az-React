@@ -11,6 +11,8 @@ import Calculator from "../calculator/Calculator"
 import SpecialOffer  from '../SpecialOffer/SpecialOffer'
 import ProyektExample from "../ProyektExample/ProyektExample";
 import Partnyorlar from "../partnyorlar/partnyorlar";
+import Vedio from "../videoAll/Videoo";
+import NoisePrice from "../NoisePrice/NoisePrice";
 
 const PageContainer = () => {
   return (
@@ -27,6 +29,8 @@ const PageContainer = () => {
       <SpecialOffer/>
       <ProyektExample/>
       <Partnyorlar/>
+      <Vedio/>
+      <NoisePrice/>
     </>
   );
 };
