@@ -13,6 +13,10 @@ import ProyektExample from "../ProyektExample/ProyektExample";
 import Partnyorlar from "../partnyorlar/partnyorlar";
 import Vedio from "../videoAll/Videoo";
 import NoisePrice from "../NoisePrice/NoisePrice";
+import Accordion from "../Accordion/Accordion";
+import FormValidation from "../FormValidation/FormValidation";
+import Footer from "../Footer/Footer";
+import FormMap from "../FormValidation/FormMap/FormMap";
 
 const PageContainer = () => {
   return (
@@ -31,6 +35,11 @@ const PageContainer = () => {
       <Partnyorlar/>
       <Vedio/>
       <NoisePrice/>
+      <Accordion/>
+      <FormValidation/>
+      <Partnyorlar/>
+      <FormMap/>
+      <Footer/>
     </>
   );
 };

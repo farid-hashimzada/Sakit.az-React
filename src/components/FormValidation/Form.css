@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-box {
+    background-image: url('../../img/FormBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.form-box .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.form {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    color: #FFFFFF;
+    top: 30px;
+    padding-bottom: 50px;
+}
+
+.form-content h3 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.form-content p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.form .formValidation {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 459px;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 25px;
+    border-radius: 15px;
+    gap: 20px;
+}
+
+.form .formValidation input {
+    width: 380px;
+    height: 60px;
+    border-radius: 10px;
+    background: #EEE;
+    padding: 15px;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+
+.form .formValidation label {
+    margin: 0 auto;
+}
+
+.form .formValidation label textarea {
+    resize: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.formValidation button {
+    position: relative;
+    left: 135px;
+    background: linear-gradient(180deg, #00A7E1 0%, #003DA6 100%);
+    border: none;
+}
+
+.form-box .container iframe {
+    margin-top: 110px !important;
+    padding-top: 200px;
+}
+
+.map {
+    margin-top: 50px;
+}

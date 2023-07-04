@@ -12,6 +12,9 @@ import './components/partnyorlar/partnyorlar.css';
 import './components/videoAll/video.css';
 import './components/NoisePrice/NoisePrice.css';
 import './components/NoisePrice/NoiseCartComponent/NoiseCart.css';
+import './components/Accordion/Accordion.css';
+import './components/FormValidation/Form.css';
+import './components/Footer/Footer.css';
 import { Routing } from './Routing/Routing';
 
 
