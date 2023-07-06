@@ -3,28 +3,32 @@ import Plus from "../../img/+.svg";
 import { AiOutlinePlus } from "react-icons/ai";
 import { AiOutlineMinus } from "react-icons/ai";
 const Accordion = () => {
-  const [panelId, setPanelId] = useState(false);
+  const [panelId, setPanelId] = useState(0);
 
   const questions = [
     {
       id: 1,
       question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      answer:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       id: 2,
       question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      answer: "sagol",
+      answer:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       id: 3,
       question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      answer: "sagol",
+      answer:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       id: 4,
       question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      answer: "sagol",
+      answer:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
   ];
 
@@ -39,10 +43,7 @@ const Accordion = () => {
                 <div className="accordionItem">
                   <div className="question">
                     <p>{question.question}</p>
-                    <span
-                      data-id={question.id}
-                      onClick={() => setPanelId(question.id)}
-                    >
+                    <span onClick={() => setPanelId(question.id)}>
                       {panelId === question.id ? (
                         <AiOutlineMinus />
                       ) : (
@@ -50,13 +51,9 @@ const Accordion = () => {
                       )}
                     </span>
                   </div>
-                  {panelId === 1 && (
-                    <div className="answer">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </div>
+                  {panelId === question.id && (
+                    <div className="answer">{question.answer}</div>
                   )}
-                  {panelId === 2 && <div className="answer">ikinci</div>}
-                  <h1></h1>
                 </div>
               );
             })}
